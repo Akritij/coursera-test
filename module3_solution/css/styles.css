@@ -10,32 +10,6 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-h3{
-  text-align: left;
-  margin: 0px;
-  border: 1px solid black;
-}
-
-.topcorner{
-   float:right;
-  }
-
-#beef{
-  color:white;
-  background-color: red;
-}
-
-#chicken{
-  color:black;
-  background-color: pink;
-}
-
-#sushi{
-  color:black;
-  background-color: brown;
-
-}
-
 .box {
     overflow: auto;
     border: 1px solid black;
@@ -48,6 +22,31 @@ h3{
   clear:right;
 }
 
+.navbar{
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.navbar-default .navbar-brand {
+    color: #080808;
+}
+
+  a.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #080808;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #333;
+}
+
+.navbar-default .navbar-toggle {
+    padding: 15px 10px;
+    margin-top: 15px;
+}
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -75,12 +74,16 @@ h3{
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
-  /* End Home Page */
 
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
+   a.navbar-brand {
+    font-size: 2em;
+    padding: 25px;
+}
   /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -90,18 +93,21 @@ h3{
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
+
+
+  /*
+  .navbar-brand p { 
     font-size: .6em;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img { 
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;
   }
@@ -121,12 +127,12 @@ h3{
     letter-spacing: .1em;
     text-transform: uppercase;
   }
-  /* End Header */
+ 
 
-  /* Home Page */
+
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-  }
+  }*/
 
 }
