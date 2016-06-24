@@ -17,8 +17,8 @@ body {
     height: 700px;
     background-color: grey;
     margin:20px 5px 20px 5px;
-}
 
+}
 
 .content{
   clear:right;
@@ -66,13 +66,15 @@ body {
     border-color: #080808;
 }
 
-.content a {
+.bottommenu{
+   vertical-align: bottom;
+}
+
+.bottommenu a {
     color: black;
     text-decoration: underline;
 
 }
-
-
 
 
 /********** Extra small devices only **********/
