@@ -10,6 +10,7 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+
 .box {
     overflow: auto;
     border: 1px solid black;
@@ -17,6 +18,7 @@ body {
     background-color: grey;
     margin:20px 5px 20px 5px;
 }
+
 
 .content{
   clear:right;
@@ -48,34 +50,30 @@ body {
     margin-top: 15px;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
-  }
-  /* End Home Page */
+.navbar-default .navbar-nav>li>a{
+    color: #080808;
 }
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
+.navbar-nav>li>a {
+    border-bottom:1px solid black;
+}
+
+.navbar-nav>li.sushi>a{
+    border-bottom: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #080808;
+}
+
+.content a {
+    color: black;
+    text-decoration: underline;
 
 }
+
+
+
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -94,45 +92,9 @@ body {
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
-
-  /*
-  .navbar-brand p { 
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { 
-    height: 20px;
-  }
-
-  #collapsable-nav a { 
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { 
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
- 
-
-
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #080808;
+    background-color: white;
+}
 
 }
