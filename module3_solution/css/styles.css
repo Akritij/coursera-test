@@ -8,6 +8,7 @@ body {
   color: #000;
   background-color: #ffffff;
   font-family: 'Oxygen', sans-serif;
+  padding-top: 70px;
 }
 
 
@@ -72,10 +73,16 @@ body {
 }
 
 
-
-
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
+  .box{
+    padding: 30px;
+  }
+
+  #OurMenu{
+    padding: 10px;
+  }
 
    a.navbar-brand {
     font-size: 2em;
