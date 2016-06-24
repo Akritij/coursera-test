@@ -67,14 +67,21 @@ body {
 }
 
 .bottommenu{
-   vertical-align: bottom;
+  float:right;
 }
 
-.bottommenu a {
+#link{
+  text-align: left;
+  margin: 0px;
+}
+
+
+.bottommenu a{
     color: black;
     text-decoration: underline;
-
 }
+
+
 
 
 /********** Extra small devices only **********/
